@@ -1,0 +1,394 @@
+fileFormatVersion: 2
+guid: 90092142010ecbe41a9f7a84b54dc1bf
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3600588221922412413
+    second: Effect_Power_png_0
+  - first:
+      213: -5968308698685149706
+    second: Effect_Power_png_1
+  - first:
+      213: -3312041544026602322
+    second: Effect_Power_png_2
+  - first:
+      213: 6975531254636535203
+    second: Effect_Power_png_3
+  - first:
+      213: -4722764618338881904
+    second: Effect_Power_png_4
+  - first:
+      213: 4570572105313328776
+    second: Effect_Power_png_5
+  - first:
+      213: 2325149871348095064
+    second: Effect_Power_png_6
+  - first:
+      213: 662592285603492755
+    second: Effect_Power_png_7
+  - first:
+      213: 1240552090869516425
+    second: Effect_Power_png_8
+  - first:
+      213: 3884896357305180929
+    second: Effect_Power_png_9
+  - first:
+      213: 2324072552781711368
+    second: Effect_Power_png_10
+  - first:
+      213: 213420770551067578
+    second: Effect_Power_png_11
+  - first:
+      213: 8068242534225963593
+    second: Effect_Power_png_12
+  - first:
+      213: 5476777097465353160
+    second: Effect_Power_png_13
+  - first:
+      213: 5819012721993387652
+    second: Effect_Power_png_14
+  - first:
+      213: 8914462557045859920
+    second: Effect_Power_png_15
+  - first:
+      213: -994343164565993555
+    second: Effect_Power_png_16
+  - first:
+      213: -1759029341254800727
+    second: Effect_Power_png_17
+  - first:
+      213: 2538819012297066670
+    second: Effect_Power_png_18
+  - first:
+      213: 8142919472606194974
+    second: Effect_Power_png_19
+  - first:
+      213: 8799243092213338055
+    second: Effect_Power_png_20
+  - first:
+      213: 4318261052457023042
+    second: Effect_Power_png_21
+  - first:
+      213: -3233730567555129020
+    second: Effect_Power_png_22
+  - first:
+      213: -2575024902311117874
+    second: Effect_Power_png_23
+  - first:
+      213: 9113627975649411368
+    second: Effect_Power_png_24
+  - first:
+      213: 1249981438642358523
+    second: Effect_Power_png_25
+  - first:
+      213: -8575914766871271856
+    second: Effect_Power_png_26
+  - first:
+      213: -5925304490566853713
+    second: Effect_Power_png_27
+  - first:
+      213: -2872641513836068407
+    second: Effect_Power_png_28
+  - first:
+      213: 5810815217295307164
+    second: Effect_Power_png_29
+  - first:
+      213: 121713310266854568
+    second: Effect_Power_png_30
+  - first:
+      213: 5044326662587854632
+    second: Effect_Power_png_31
+  - first:
+      213: 730470544247287711
+    second: Effect_Power_png_32
+  - first:
+      213: -6112143756547877064
+    second: Effect_Power_png_33
+  - first:
+      213: 1689022310415340603
+    second: Effect_Power_png_34
+  - first:
+      213: -2511723075506650410
+    second: Effect_Power_png_35
+  - first:
+      213: -8858391960035245231
+    second: Effect_Power_png_36
+  - first:
+      213: 1313393872512873725
+    second: Effect_Power_png_37
+  - first:
+      213: 4874477312213511533
+    second: Effect_Power_png_38
+  - first:
+      213: -234560087682280598
+    second: Effect_Power_png_39
+  - first:
+      213: -6850257616942974957
+    second: Effect_Power_png_40
+  - first:
+      213: 4271374264140770903
+    second: Effect_Power_png_41
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Effect_Power_png_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 61
+        width: 107
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a42149db28c6c154cbd012c8f8e055e1
+      internalID: 1211220547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_Power_png_1
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 61
+        width: 107
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8cf90cb6b6e9bf49935196c8a9c341c
+      internalID: 233559210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_Power_png_2
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 59
+        width: 107
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c01f90200b72ba48bf0deaac2c9fd82
+      internalID: -2793255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_Power_png_3
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 59
+        width: 107
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a35ff8e1e185684490de3c4f6685944
+      internalID: 1624396895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_Power_png_4
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 60
+        width: 107
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba401e9265b342d4bb5819e4f5720a39
+      internalID: 38301145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_Power_png_5
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 60
+        width: 107
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a573a8201d9860479cea8fe6f658a56
+      internalID: 1443069396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 21bf939c3c371d84b84159a1315c002e
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Effect_Power_png_0: 1211220547
+      Effect_Power_png_1: 233559210
+      Effect_Power_png_2: -2793255
+      Effect_Power_png_3: 1624396895
+      Effect_Power_png_4: 38301145
+      Effect_Power_png_5: 1443069396
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

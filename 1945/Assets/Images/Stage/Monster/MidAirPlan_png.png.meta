@@ -1,10 +1,13 @@
 fileFormatVersion: 2
-guid: 05d4eaab53d174541a690bbf949b10db
+guid: 7d5e6b379d9a2e84eabe334b5968335f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3740626451653842279
-    second: Bullet_Eg_a_0
+      213: -4931454304975614275
+    second: MidAirPlan_png_0
+  - first:
+      213: -5699256458655769225
+    second: MidAirPlan_png_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +40,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -75,7 +78,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 2
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -113,13 +116,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Bullet_Eg_a_0
+      name: MidAirPlan_png_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 48
-        height: 48
+        width: 310
+        height: 335
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +131,30 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 765d14860ff59e330800000000000000
-      internalID: 3740626451653842279
+      spriteID: dbe8bd50074ff8bb0800000000000000
+      internalID: -4931454304975614275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MidAirPlan_png_1
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 0
+        width: 310
+        height: 335
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77dd8f1627c28e0b0800000000000000
+      internalID: -5699256458655769225
       vertices: []
       indices: 
       edges: []
@@ -138,7 +163,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 2a40d2606809e424e9c092b8bd22d998
     internalID: 0
     vertices: []
     indices: 
@@ -148,7 +173,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Bullet_Eg_a_0: 3740626451653842279
+      MidAirPlan_png_0: -4931454304975614275
+      MidAirPlan_png_1: -5699256458655769225
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
