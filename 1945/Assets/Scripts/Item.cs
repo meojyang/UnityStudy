@@ -6,7 +6,7 @@ public class Item : MonoBehaviour
 
     Rigidbody2D rig = null;
 
-    public GameObject powerUp;
+    //public GameObject powerUp;
         
     void Start()
     {
@@ -16,7 +16,7 @@ public class Item : MonoBehaviour
 
     
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    /*private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))
         {
@@ -30,5 +30,5 @@ public class Item : MonoBehaviour
             Destroy(powerUpEffect, 1f);
             p.powerLevelUp();
         }                
-    }
+    }*/
 }

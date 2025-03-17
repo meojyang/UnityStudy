@@ -49,6 +49,25 @@ public class PBullet : MonoBehaviour
             DropItem();
             
         }
+
+
+        if(collision.CompareTag("Boss"))
+        {
+
+            //그자리에 이펙트 생성
+
+            //이렇게 써도 되고
+            //Destroy(Instantiate(effect, transform.position, Quaternion.identity), 1);
+            GameObject eff = Instantiate(effect, transform.position, Quaternion.identity);
+            Destroy(eff, 1);
+            //이렇게 써도 되고
+            //생성했다가 1초뒤에 삭제
+
+            //미사일을 삭제하고
+            Destroy(gameObject);
+            
+
+        }
     }
 
     private void DropItem()
