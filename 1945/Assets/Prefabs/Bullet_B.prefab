@@ -105,6 +105,7 @@ MonoBehaviour:
   Speed: 7
   effect: {fileID: 1674883560965664512, guid: b594358a05f5a6e43a5a899abaa1e0da, type: 3}
   Item: {fileID: 3375865588131172794, guid: b4cc6b8c4dc8a4546911b86734e20b87, type: 3}
+  Attack: 50
 --- !u!61 &-762055219184223406
 BoxCollider2D:
   m_ObjectHideFlags: 0

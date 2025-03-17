@@ -1,16 +1,17 @@
 using UnityEngine;
+using UnityEngine.UIElements;
 
 public class Monster : MonoBehaviour
 {
-
+    public int Hp = 100;
     public float moveSpeed = 3f;
     public float Delay = 1f;
     public Transform ms1;
     public Transform ms2;
     public GameObject bullet;
+    public GameObject Item = null;
     
-
-
+    
     void Start()
     {
         Invoke("CreateBullet", Delay);
@@ -20,6 +21,16 @@ public class Monster : MonoBehaviour
     {
         transform.Translate(Vector3.down * moveSpeed * Time.deltaTime);
         //아래방향으로 움직여랏
+    }
+
+    public void Damage(int attack)
+    {
+        Hp -= attack;
+        if(Hp <= 0)
+        {
+            Destroy(gameObject);
+            DropItem();
+        }
     }
 
     private void OnBecameInvisible()
@@ -33,5 +44,9 @@ public class Monster : MonoBehaviour
         Instantiate(bullet, ms2.position, Quaternion.identity);
 
         Invoke("CreateBullet", Delay);
+    }
+    public void DropItem()
+    {
+        Instantiate(Item, transform.position, Quaternion.identity);
     }
 }

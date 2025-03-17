@@ -180,11 +180,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 825ba772e5e73b2408b111cf6f03b560, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Hp: 100
   moveSpeed: 3
   Delay: 1
   ms1: {fileID: 6438205120618768655}
   ms2: {fileID: 1081648361148351655}
   bullet: {fileID: 926391961089598195, guid: 048981b2019091b49b30fd44a4e0b513, type: 3}
+  Item: {fileID: 3375865588131172794, guid: b4cc6b8c4dc8a4546911b86734e20b87, type: 3}
 --- !u!1 &7755942383416625563
 GameObject:
   m_ObjectHideFlags: 0

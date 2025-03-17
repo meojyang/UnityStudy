@@ -10,6 +10,7 @@ public class SpawnManager : MonoBehaviour
     public float SpawnStop = 10;
     public GameObject monster;
     public GameObject monster2;
+    public GameObject boss;
 
     bool flag = true;
     bool flag2 = true;
@@ -69,6 +70,10 @@ public class SpawnManager : MonoBehaviour
         flag2 = false;        
         StartCoroutine("RandomSpawn2");
 
+        StopCoroutine("RandomSpawn2");
+        Vector3 pos = new Vector3(0, 3.9f, 0);
+        //보스 생성 위치
+        GameObject go = Instantiate(boss, pos, Quaternion.identity);
     }
 
 }

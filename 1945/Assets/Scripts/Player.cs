@@ -1,3 +1,4 @@
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class Player : MonoBehaviour
@@ -7,8 +8,10 @@ public class Player : MonoBehaviour
     Animator ani; //애니메이터를 가져올 함수
     public int powerLevel = 0;
     public GameObject[] bullet; //4개의 배열로 만들 예정
+    public GameObject lazer;
     public GameObject powerUp;
     public Transform pos = null; //발사 위치
+    public float gValue = 0;
 
     //아이템
 
@@ -48,10 +51,27 @@ public class Player : MonoBehaviour
             //프리팹 위치 방향 넣고 생성
             Instantiate(bullet[powerLevel], pos.position, Quaternion.identity);            
         }
-        //불릿을 자기 위치에서 만들어줌
-        //그래서 굳이 Launcher가 없어도 자기 위치에서 나감
+        else if (Input.GetKey(KeyCode.Space))
+        {
+            gValue += Time.deltaTime;
+            if(gValue >= 1)
+            {
+                GameObject go = Instantiate(lazer, pos.position, Quaternion.identity);
+                Destroy(go, 3f);
+                gValue = 0;
+            }
+        }
+        else
+        {
+            gValue -= Time.deltaTime;
+            if (gValue <= 0) gValue = 0;
+        }
 
-        transform.Translate(moveX, moveY, 0);
+
+            //불릿을 자기 위치에서 만들어줌
+            //그래서 굳이 Launcher가 없어도 자기 위치에서 나감
+
+            transform.Translate(moveX, moveY, 0);
 
 
 

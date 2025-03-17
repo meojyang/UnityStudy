@@ -7,6 +7,8 @@ public class PBullet : MonoBehaviour
     public GameObject effect;
     //총알이 몬스터에 닿으면 아이템을 만들어야 하니까
     public GameObject Item;
+
+    public int Attack = 10;
     
     void Update()
     {
@@ -40,13 +42,13 @@ public class PBullet : MonoBehaviour
             Destroy(eff, 1);
             //이렇게 써도 되고
             //생성했다가 1초뒤에 삭제
-
+            collision.gameObject.GetComponent<Monster>().Damage(Attack);
             //미사일을 삭제하고
             Destroy(gameObject);
             //몬스터도 삭제한다
-            Destroy(collision.gameObject);
+            
             //그리고 아이템을 생성
-            DropItem();
+            
             
         }
 
@@ -70,20 +72,5 @@ public class PBullet : MonoBehaviour
         }
     }
 
-    private void DropItem()
-    {
-        GameObject newItem = Instantiate(Item, transform.position, Quaternion.identity);
-
-        // Rigidbody2D 가져오기
-        Rigidbody2D rig = newItem.GetComponent<Rigidbody2D>();
-
-        if (rig != null)
-        {
-            // 랜덤한 방향 적용
-            Vector2 randomDirection = new Vector2(Random.Range(-1f, 1f), Random.Range(0.5f, 1f)).normalized;
-            float Force = 4f;
-
-            rig.AddForce(randomDirection * Force, ForceMode2D.Impulse);
-        }
-    }
+    
 }
