@@ -3,8 +3,8 @@ using UnityEngine;
 
 public class SpawnManager : MonoBehaviour
 {
-    public float ss = -2; //¸ó½ºÅÍ¸¦ »ı¼ºÇÒ X°ª
-    public float es = 2; //¸ó½ºÅÍ¸¦ »ı¼ºÇÒ x°ªÀÇ ³¡
+    public float ss = -2; //ëª¬ìŠ¤í„°ë¥¼ ìƒì„±í•  Xê°’
+    public float es = 2; //ëª¬ìŠ¤í„°ë¥¼ ìƒì„±í•  xê°’ì˜ ë
 
     public float StartTime = 1;
     public float SpawnStop = 10;
@@ -16,6 +16,22 @@ public class SpawnManager : MonoBehaviour
     bool flag2 = true;
 
 
+    [SerializeField]
+    GameObject textBossWarning;
+
+
+    private void Awake()
+    {
+        textBossWarning.SetActive(false);
+
+        //PoolManager.Instance.CreatePool(monster, 10);
+        //ëª¬ìŠ¤í„° í”„ë¦¬íŒ¹ 10ê°œë¥¼ í’€ì— ë“±ë¡
+        //ì´ì œ êº¼ë‚´ë‹¤ ì“¸ ìˆ˜ ìˆëŠ” í”„ë¦¬íŒ¹ì´ 10ê°œê°€ ìˆëŠ”ê±°ì„
+
+
+    }
+
+
     void Start()
     {
         StartCoroutine("RandomSpawn");
@@ -24,7 +40,7 @@ public class SpawnManager : MonoBehaviour
     }
         
 
-    //ÄÚ·çÆ¾À¸·Î ¸ó½ºÅÍ¸¦ ·£´ıÇÏ°Ô »ı¼º
+    //ì½”ë£¨í‹´ìœ¼ë¡œ ëª¬ìŠ¤í„°ë¥¼ ëœë¤í•˜ê²Œ ìƒì„±
 
     IEnumerator RandomSpawn()
     {
@@ -32,11 +48,13 @@ public class SpawnManager : MonoBehaviour
         {
 
             yield return new WaitForSeconds(StartTime);
-            //x°ª ·£´ı
+            //xê°’ ëœë¤
             float x = Random.Range(ss, es);
 
             Vector2 r = new Vector2(x, transform.position.y);
             Instantiate(monster, r, Quaternion.identity);
+            /*GameObject enemy = PoolManager.Instance.Get(monster);
+            enemy.transform.position = r;*/
         }
     }
 
@@ -47,7 +65,7 @@ public class SpawnManager : MonoBehaviour
         {
 
             yield return new WaitForSeconds(StartTime);
-            //x°ª ·£´ı
+            //xê°’ ëœë¤
             float x = Random.Range(ss, es);
 
             Vector2 r = new Vector2(x, transform.position.y);
@@ -69,10 +87,10 @@ public class SpawnManager : MonoBehaviour
     {
         flag2 = false;        
         StartCoroutine("RandomSpawn2");
-
+        textBossWarning.SetActive(true);
         StopCoroutine("RandomSpawn2");
         Vector3 pos = new Vector3(0, 3.9f, 0);
-        //º¸½º »ı¼º À§Ä¡
+        //ë³´ìŠ¤ ìƒì„± ìœ„ì¹˜
         GameObject go = Instantiate(boss, pos, Quaternion.identity);
     }
 

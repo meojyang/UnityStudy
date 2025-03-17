@@ -20,22 +20,30 @@ public class Monster : MonoBehaviour
     void Update()
     {
         transform.Translate(Vector3.down * moveSpeed * Time.deltaTime);
-        //¾Æ·¡¹æÇâÀ¸·Î ¿òÁ÷¿©¶ù
+        //ì•„ë˜ë°©í–¥ìœ¼ë¡œ ì›€ì§ì—¬ë
     }
 
     public void Damage(int attack)
     {
         Hp -= attack;
+       
         if(Hp <= 0)
         {
-            Destroy(gameObject);
+            
             DropItem();
+            Destroy(gameObject);
+            
         }
+    }
+
+    public void DropItem()
+    {
+        Instantiate(Item, transform.position, Quaternion.identity);
     }
 
     private void OnBecameInvisible()
     {
-        Destroy(gameObject);
+        Destroy(gameObject);                
     }
 
     public void CreateBullet()
@@ -45,8 +53,5 @@ public class Monster : MonoBehaviour
 
         Invoke("CreateBullet", Delay);
     }
-    public void DropItem()
-    {
-        Instantiate(Item, transform.position, Quaternion.identity);
-    }
+    
 }

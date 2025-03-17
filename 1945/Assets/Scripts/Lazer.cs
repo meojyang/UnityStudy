@@ -21,9 +21,9 @@ public class Lazer : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Monster"))
-        {
-            Destroy(collision.gameObject);
+        {            
             CreateEffect(collision.transform.position);
+            collision.gameObject.GetComponent<Monster>().Damage(Attack);
         }
 
 
@@ -36,9 +36,9 @@ public class Lazer : MonoBehaviour
     private void OnTriggerStay2D(Collider2D collision)
     {
         if (collision.CompareTag("Monster"))
-        {
-            Destroy(collision.gameObject);
+        {            
             CreateEffect(collision.transform.position);
+            collision.gameObject.GetComponent<Monster>().Damage(Attack);
         }
 
 

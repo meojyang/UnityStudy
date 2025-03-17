@@ -157,11 +157,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 825ba772e5e73b2408b111cf6f03b560, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Hp: 100
   moveSpeed: 2
   Delay: 1
   ms1: {fileID: 6057609084442918663}
   ms2: {fileID: 8915731515534908644}
   bullet: {fileID: 2222650701148656322, guid: b30940cae97f5df4f8f6878845f50a04, type: 3}
+  Item: {fileID: 3375865588131172794, guid: b4cc6b8c4dc8a4546911b86734e20b87, type: 3}
 --- !u!61 &7128500286388186653
 BoxCollider2D:
   m_ObjectHideFlags: 0

@@ -5,67 +5,67 @@ public class PBullet : MonoBehaviour
 
     public float Speed = 4.0f;
     public GameObject effect;
-    //ÃÑ¾ËÀÌ ¸ó½ºÅÍ¿¡ ´êÀ¸¸é ¾ÆÀÌÅÛÀ» ¸¸µé¾î¾ß ÇÏ´Ï±î
+    //ì´ì•Œì´ ëª¬ìŠ¤í„°ì— ë‹¿ìœ¼ë©´ ì•„ì´í…œì„ ë§Œë“¤ì–´ì•¼ í•˜ë‹ˆê¹Œ
     public GameObject Item;
 
     public int Attack = 10;
     
     void Update()
     {
-        //¹Ì»çÀÏÀº À§·Î ¿òÁ÷ÀÏ°Å°í
-        //À§ ¹æÇâ * ½ºÇÇµå * Å¸ÀÓ
+        //ë¯¸ì‚¬ì¼ì€ ìœ„ë¡œ ì›€ì§ì¼ê±°ê³ 
+        //ìœ„ ë°©í–¥ * ìŠ¤í”¼ë“œ * íƒ€ì„
 
-        //ÀÌµ¿ ÇÔ¼ö: transform.Translate(¹æÇâ * ¼Óµµ * ½Ã°£);
+        //ì´ë™ í•¨ìˆ˜: transform.Translate(ë°©í–¥ * ì†ë„ * ì‹œê°„);
         transform.Translate(Vector2.up * Speed * Time.deltaTime);
     }
 
 
-    //È­¸é ¹ÛÀ¸·Î ³ª°¥°æ¿ì
+    //í™”ë©´ ë°–ìœ¼ë¡œ ë‚˜ê°ˆê²½ìš°
     private void OnBecameInvisible()
     {
         Destroy(gameObject);
-        //ÀÚ±â ÀÚ½ÅÀ» ÆÄ±«
+        //ìê¸° ìì‹ ì„ íŒŒê´´
 
+
+        //PoolManager.Instance.Return(gameObject);
     }
 
-    //ÇÃ·¹ÀÌ¾î ¹Ì»çÀÏÀÌ ¸ó½ºÅÍ¿Í Ãæµ¹ÇÏ¸é
+    //í”Œë ˆì´ì–´ ë¯¸ì‚¬ì¼ì´ ëª¬ìŠ¤í„°ì™€ ì¶©ëŒí•˜ë©´
     public void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Monster"))
         {
 
-            //±×ÀÚ¸®¿¡ ÀÌÆåÆ® »ı¼º
+            //ê·¸ìë¦¬ì— ì´í™íŠ¸ ìƒì„±
 
-            //ÀÌ·¸°Ô ½áµµ µÇ°í
+            //ì´ë ‡ê²Œ ì¨ë„ ë˜ê³ 
             //Destroy(Instantiate(effect, transform.position, Quaternion.identity), 1);
             GameObject eff = Instantiate(effect, transform.position, Quaternion.identity);
             Destroy(eff, 1);
-            //ÀÌ·¸°Ô ½áµµ µÇ°í
-            //»ı¼ºÇß´Ù°¡ 1ÃÊµÚ¿¡ »èÁ¦
-            collision.gameObject.GetComponent<Monster>().Damage(Attack);
-            //¹Ì»çÀÏÀ» »èÁ¦ÇÏ°í
+            //ì´ë ‡ê²Œ ì¨ë„ ë˜ê³ 
+            //ìƒì„±í–ˆë‹¤ê°€ 1ì´ˆë’¤ì— ì‚­ì œ
+            
+            //ë¯¸ì‚¬ì¼ì„ ì‚­ì œí•˜ê³ 
             Destroy(gameObject);
-            //¸ó½ºÅÍµµ »èÁ¦ÇÑ´Ù
-            
-            //±×¸®°í ¾ÆÀÌÅÛÀ» »ı¼º
-            
-            
+            //ëª¬ìŠ¤í„°ë„ ë°ë¯¸ì§€ë¥¼ ì…ê²Œ í•œë‹¤
+            collision.gameObject.GetComponent<Monster>().Damage(Attack);           
+            //PoolManager.Instance.Return(collision.gameObject);
         }
 
 
         if(collision.CompareTag("Boss"))
         {
 
-            //±×ÀÚ¸®¿¡ ÀÌÆåÆ® »ı¼º
+            //ê·¸ìë¦¬ì— ì´í™íŠ¸ ìƒì„±
 
-            //ÀÌ·¸°Ô ½áµµ µÇ°í
+            //ì´ë ‡ê²Œ ì¨ë„ ë˜ê³ 
             //Destroy(Instantiate(effect, transform.position, Quaternion.identity), 1);
             GameObject eff = Instantiate(effect, transform.position, Quaternion.identity);
             Destroy(eff, 1);
-            //ÀÌ·¸°Ô ½áµµ µÇ°í
-            //»ı¼ºÇß´Ù°¡ 1ÃÊµÚ¿¡ »èÁ¦
+            //ì´ë ‡ê²Œ ì¨ë„ ë˜ê³ 
+            //ìƒì„±í–ˆë‹¤ê°€ 1ì´ˆë’¤ì— ì‚­ì œ
 
-            //¹Ì»çÀÏÀ» »èÁ¦ÇÏ°í
+            //ë¯¸ì‚¬ì¼ì„ ì‚­ì œ
             Destroy(gameObject);
             
 

@@ -17,43 +17,49 @@ public class Boss : MonoBehaviour
 
     void Start()
     {
+        Invoke("Hide", 2); //ë³´ìŠ¤ì›Œë‹ êº¼ì¤˜
         StartCoroutine("BossMisile");
         StartCoroutine("CircleFire");
     }
-    
+
+    void Hide()
+    {
+        GameObject.Find("TextBossWarning").SetActive(false);
+    }
+
     IEnumerator CircleFire()
     {
-        //°ø°İÁÖ±â
+        //ê³µê²©ì£¼ê¸°
         float attackRate = 3;
 
-        //ÃÑ¾Ë »ı¼º°¹¼ö
+        //ì´ì•Œ ìƒì„±ê°¯ìˆ˜
         int count = 30;
 
-        //ÃÑ¾Ë »çÀÌÀÇ °¢µµ
+        //ì´ì•Œ ì‚¬ì´ì˜ ê°ë„
         float intervalAngle = 360 / count;
 
-        //°¡ÁßµÇ´Â °¢µµ
+        //ê°€ì¤‘ë˜ëŠ” ê°ë„
         float weightAngle = 0f;
 
-        //¿øÇüÅÂ·Î ¹ß»çµÇ´Â ÃÑ¾Ë »ı¼º(count °¹¼ö¸¸Å­)
+        //ì›í˜•íƒœë¡œ ë°œì‚¬ë˜ëŠ” ì´ì•Œ ìƒì„±(count ê°¯ìˆ˜ë§Œí¼)
 
         while (true)
         {
             for( int i = 0; i < count; i++)
             {
-                //¹ß»çÃ¼ »ı¼º
+                //ë°œì‚¬ì²´ ìƒì„±
                 GameObject clone = Instantiate(mb2, pos3.position, Quaternion.identity);
 
-                //¹ß»çÃ¼ÀÇ ÀÌµ¿¹æÇâ
+                //ë°œì‚¬ì²´ì˜ ì´ë™ë°©í–¥
                 float angle = weightAngle + intervalAngle * i;
-                //¹ß»çÃ¼ ÀÌµ¿¹æÇâ(º¤ÅÍ)
-                //Cos(°¢µµ) ¶óµğ¾È ´ÜÀ§ÀÇ °¢µµ Ç¥ÇöÀ» À§ÇØ pi/180À» °öÇÔ
+                //ë°œì‚¬ì²´ ì´ë™ë°©í–¥(ë²¡í„°)
+                //Cos(ê°ë„) ë¼ë””ì•ˆ ë‹¨ìœ„ì˜ ê°ë„ í‘œí˜„ì„ ìœ„í•´ pi/180ì„ ê³±í•¨
                 float x = Mathf.Cos(angle * Mathf.Deg2Rad);
                 float y = Mathf.Sin(angle * Mathf.Deg2Rad);
 
-                //¹ß»çÃ¼ ÀÌµ¿¹æÇâ ¼³Á¤
+                //ë°œì‚¬ì²´ ì´ë™ë°©í–¥ ì„¤ì •
                 clone.GetComponent<BossMissile>().Move(new Vector2(x, y));
-                //Å¬·ĞÀÇ °´Ã¼¸¦ ¹Ş¾Æ¿Í¼­ ±× ¾ÈÀÇ ÇÔ¼öÀÎ ¹«ºê¸¦ »ç¿ëÇØÁà ¾î´À ¹æÇâÀ¸·Î? ¿©±â¼­ »ı¼ºÇÑ x,y °ªÀ¸·Î
+                //í´ë¡ ì˜ ê°ì²´ë¥¼ ë°›ì•„ì™€ì„œ ê·¸ ì•ˆì˜ í•¨ìˆ˜ì¸ ë¬´ë¸Œë¥¼ ì‚¬ìš©í•´ì¤˜ ì–´ëŠ ë°©í–¥ìœ¼ë¡œ? ì—¬ê¸°ì„œ ìƒì„±í•œ x,y ê°’ìœ¼ë¡œ
                                 
             }
 
