@@ -1,21 +1,27 @@
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Player : MonoBehaviour
 {
     public float moveSpeed = 5f;     
 
-    Animator ani; //¾Ö´Ï¸ŞÀÌÅÍ¸¦ °¡Á®¿Ã ÇÔ¼ö
+    Animator ani; //ì• ë‹ˆë©”ì´í„°ë¥¼ ê°€ì ¸ì˜¬ í•¨ìˆ˜
     public int powerLevel = 0;
-    public GameObject[] bullet; //4°³ÀÇ ¹è¿­·Î ¸¸µé ¿¹Á¤
-    public GameObject lazer;
+    public GameObject[] bullet; //4ê°œì˜ ë°°ì—´ë¡œ ë§Œë“¤ ì˜ˆì •
+    
     public GameObject powerUp;
-    public Transform pos = null; //¹ß»ç À§Ä¡
+    public Transform pos = null; //ë°œì‚¬ ìœ„ì¹˜
+    
+
+    //ì•„ì´í…œ
+
+    //ë ˆì´ì €
+    public GameObject lazer;
     public float gValue = 0;
 
-    //¾ÆÀÌÅÛ
+    public Image Gage;
 
-    //·¹ÀÌÀú
 
     void Start()
     {        
@@ -24,7 +30,7 @@ public class Player : MonoBehaviour
     
     void Update()
     {
-        //¹æÇâÅ°¿¡ µû¸¥ ¿òÁ÷ÀÓ
+        //ë°©í–¥í‚¤ì— ë”°ë¥¸ ì›€ì§ì„
         float moveX = moveSpeed * Time.deltaTime * Input.GetAxis("Horizontal");
         float moveY = moveSpeed * Time.deltaTime * Input.GetAxis("Vertical");
 
@@ -48,12 +54,15 @@ public class Player : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            //ÇÁ¸®ÆÕ À§Ä¡ ¹æÇâ ³Ö°í »ı¼º
+            //í”„ë¦¬íŒ¹ ìœ„ì¹˜ ë°©í–¥ ë„£ê³  ìƒì„±
             Instantiate(bullet[powerLevel], pos.position, Quaternion.identity);            
         }
         else if (Input.GetKey(KeyCode.Space))
         {
             gValue += Time.deltaTime;
+            Gage.fillAmount = gValue;
+
+
             if(gValue >= 1)
             {
                 GameObject go = Instantiate(lazer, pos.position, Quaternion.identity);
@@ -65,22 +74,24 @@ public class Player : MonoBehaviour
         {
             gValue -= Time.deltaTime;
             if (gValue <= 0) gValue = 0;
+
+            Gage.fillAmount = gValue;
         }
 
 
-            //ºÒ¸´À» ÀÚ±â À§Ä¡¿¡¼­ ¸¸µé¾îÁÜ
-            //±×·¡¼­ ±»ÀÌ Launcher°¡ ¾ø¾îµµ ÀÚ±â À§Ä¡¿¡¼­ ³ª°¨
+            //ë¶ˆë¦¿ì„ ìê¸° ìœ„ì¹˜ì—ì„œ ë§Œë“¤ì–´ì¤Œ
+            //ê·¸ë˜ì„œ êµ³ì´ Launcherê°€ ì—†ì–´ë„ ìê¸° ìœ„ì¹˜ì—ì„œ ë‚˜ê°
 
             transform.Translate(moveX, moveY, 0);
 
 
 
-        //Ä³¸¯ÅÍÀÇ ¿ùµå ÁÂÇ¥¸¦ ºäÆ÷Æ® ÁÂÇ¥°è·Î º¯È¯ÇØÁØ´Ù.
+        //ìºë¦­í„°ì˜ ì›”ë“œ ì¢Œí‘œë¥¼ ë·°í¬íŠ¸ ì¢Œí‘œê³„ë¡œ ë³€í™˜í•´ì¤€ë‹¤.
         Vector3 viewPos = Camera.main.WorldToViewportPoint(transform.position);
-        viewPos.x = Mathf.Clamp01(viewPos.x); //x°ªÀ» 0ÀÌ»ó, 1ÀÌÇÏ·Î Á¦ÇÑÇÑ´Ù.
-        viewPos.y = Mathf.Clamp01(viewPos.y); //y°ªÀ» 0ÀÌ»ó, 1ÀÌÇÏ·Î Á¦ÇÑÇÑ´Ù.
-        Vector3 worldPos = Camera.main.ViewportToWorldPoint(viewPos);//´Ù½Ã¿ùµåÁÂÇ¥·Î º¯È¯
-        transform.position = worldPos; //ÁÂÇ¥¸¦ Àû¿ëÇÑ´Ù.
+        viewPos.x = Mathf.Clamp01(viewPos.x); //xê°’ì„ 0ì´ìƒ, 1ì´í•˜ë¡œ ì œí•œí•œë‹¤.
+        viewPos.y = Mathf.Clamp01(viewPos.y); //yê°’ì„ 0ì´ìƒ, 1ì´í•˜ë¡œ ì œí•œí•œë‹¤.
+        Vector3 worldPos = Camera.main.ViewportToWorldPoint(viewPos);//ë‹¤ì‹œì›”ë“œì¢Œí‘œë¡œ ë³€í™˜
+        transform.position = worldPos; //ì¢Œí‘œë¥¼ ì ìš©í•œë‹¤.
 
 
     }
@@ -96,7 +107,7 @@ public class Player : MonoBehaviour
             if (powerLevel >= 3)
                 powerLevel = 3;
 
-            //ºÎµúÈù ¾ÆÀÌÅÛ »èÁ¦
+            //ë¶€ë”ªíŒ ì•„ì´í…œ ì‚­ì œ
             Destroy(collision.gameObject);
 
             GameObject powerUpEffect = Instantiate(powerUp, transform.position, Quaternion.identity);
