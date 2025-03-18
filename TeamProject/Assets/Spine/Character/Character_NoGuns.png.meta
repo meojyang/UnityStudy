@@ -1,0 +1,1355 @@
+fileFormatVersion: 2
+guid: 6b9a2359b5b856c41852e967cd5c1b35
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3941030033592199593
+    second: Character_NoGuns_0
+  - first:
+      213: 4073292324854988773
+    second: Character_NoGuns_1
+  - first:
+      213: 1986880497212705594
+    second: Character_NoGuns_2
+  - first:
+      213: 3187078820533223828
+    second: Character_NoGuns_3
+  - first:
+      213: -7597570383968169943
+    second: Character_NoGuns_4
+  - first:
+      213: -4351773315524808547
+    second: Character_NoGuns_5
+  - first:
+      213: -7661661340605309761
+    second: Character_NoGuns_6
+  - first:
+      213: 1711718622628787376
+    second: Character_NoGuns_7
+  - first:
+      213: -7716858674497014014
+    second: Character_NoGuns_8
+  - first:
+      213: -1650390250838721959
+    second: Character_NoGuns_9
+  - first:
+      213: 1343638801762432467
+    second: Character_NoGuns_10
+  - first:
+      213: -7488522696576588929
+    second: Character_NoGuns_11
+  - first:
+      213: -5138592628344827010
+    second: Character_NoGuns_12
+  - first:
+      213: -6047823822216600211
+    second: Character_NoGuns_13
+  - first:
+      213: -884659595322404326
+    second: Character_NoGuns_14
+  - first:
+      213: 8939983471886225343
+    second: Character_NoGuns_15
+  - first:
+      213: 3799613022610090559
+    second: Character_NoGuns_16
+  - first:
+      213: -4136109389772817290
+    second: Character_NoGuns_17
+  - first:
+      213: 3416717428664290222
+    second: Character_NoGuns_18
+  - first:
+      213: -2211491130394305004
+    second: Character_NoGuns_19
+  - first:
+      213: 1168640156809857090
+    second: Character_NoGuns_20
+  - first:
+      213: -8993183488974274513
+    second: Character_NoGuns_21
+  - first:
+      213: -977009408524465169
+    second: Character_NoGuns_22
+  - first:
+      213: 1242407733929952562
+    second: Character_NoGuns_23
+  - first:
+      213: -9100550849293094590
+    second: Character_NoGuns_24
+  - first:
+      213: -5071962358395638308
+    second: Character_NoGuns_25
+  - first:
+      213: 107440034979195047
+    second: Character_NoGuns_26
+  - first:
+      213: 5979333688826327772
+    second: Character_NoGuns_27
+  - first:
+      213: 565465300969183841
+    second: Character_NoGuns_28
+  - first:
+      213: 1157399247672977187
+    second: Character_NoGuns_29
+  - first:
+      213: 9129502181367804676
+    second: Character_NoGuns_30
+  - first:
+      213: 8299217333962198578
+    second: Character_NoGuns_31
+  - first:
+      213: 1166765244008123214
+    second: Character_NoGuns_32
+  - first:
+      213: -6234783860540984771
+    second: Character_NoGuns_33
+  - first:
+      213: -2784301826411213362
+    second: Character_NoGuns_34
+  - first:
+      213: -5570052982667968073
+    second: Character_NoGuns_35
+  - first:
+      213: 3021321726458615293
+    second: Character_NoGuns_36
+  - first:
+      213: 3438252208211417274
+    second: Character_NoGuns_37
+  - first:
+      213: 988990256610051216
+    second: Character_NoGuns_38
+  - first:
+      213: -7494905091934763144
+    second: Character_NoGuns_39
+  - first:
+      213: 4456197493457257749
+    second: Character_NoGuns_40
+  - first:
+      213: 930201075810568811
+    second: Character_NoGuns_41
+  - first:
+      213: 8182841125775882527
+    second: Character_NoGuns_42
+  - first:
+      213: -730043788512174850
+    second: Character_NoGuns_43
+  - first:
+      213: -4493824767805258851
+    second: Character_NoGuns_44
+  - first:
+      213: 8689267598773296411
+    second: Character_NoGuns_45
+  - first:
+      213: -8453586986424806212
+    second: Character_NoGuns_46
+  - first:
+      213: -7246890677294037866
+    second: Character_NoGuns_47
+  - first:
+      213: -7317398478272128145
+    second: Character_NoGuns_48
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Character_NoGuns_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 496
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 756579e9016ae49c0800000000000000
+      internalID: -3941030033592199593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_NoGuns_1
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 502
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ef7e49c9cd378830800000000000000
+      internalID: 4073292324854988773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_NoGuns_2
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 337
+        width: 273
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3bc3870941d29b10800000000000000
+      internalID: 1986880497212705594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_NoGuns_3
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 335
+        width: 279
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 491cd092d47ca3c20800000000000000
+      internalID: 3187078820533223828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_NoGuns_4
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 346
+        width: 274
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9209c8b4df1009690800000000000000
+      internalID: -7597570383968169943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_NoGuns_5
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 416
+        width: 159
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d90be19e9356b93c0800000000000000
+      internalID: -4351773315524808547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_NoGuns_6
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 166
+        width: 195
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbc90eb9a9f4ca590800000000000000
+      internalID: -7661661340605309761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_NoGuns_7
+      rect:
+        serializedVersion: 2
+        x: 1030
+        y: 416
+        width: 44
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b4b539a40f31c710800000000000000
+      internalID: 1711718622628787376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_NoGuns_8
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 178
+        width: 265
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 207b6b4dbe538e490800000000000000
+      internalID: -7716858674497014014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_NoGuns_9
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 169
+        width: 274
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95a7dfd9fc2a819e0800000000000000
+      internalID: -1650390250838721959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_NoGuns_10
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 175
+        width: 283
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d53b7d0f5095a210800000000000000
+      internalID: 1343638801762432467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_NoGuns_11
+      rect:
+        serializedVersion: 2
+        x: 1075
+        y: 315
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f732a1a884c631890800000000000000
+      internalID: -7488522696576588929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_NoGuns_12
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 316
+        width: 35
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e73d01eda3d00b8b0800000000000000
+      internalID: -5138592628344827010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_NoGuns_13
+      rect:
+        serializedVersion: 2
+        x: 1066
+        y: 166
+        width: 65
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6562a4c640d11ca0800000000000000
+      internalID: -6047823822216600211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_NoGuns_14
+      rect:
+        serializedVersion: 2
+        x: 1131
+        y: 255
+        width: 59
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a12daa109ce09b3f0800000000000000
+      internalID: -884659595322404326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_NoGuns_15
+      rect:
+        serializedVersion: 2
+        x: 1131
+        y: 193
+        width: 65
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbf44a30a93311c70800000000000000
+      internalID: 8939983471886225343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_NoGuns_16
+      rect:
+        serializedVersion: 2
+        x: 1196
+        y: 194
+        width: 36
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3a6f90b9efeab430800000000000000
+      internalID: 3799613022610090559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_NoGuns_17
+      rect:
+        serializedVersion: 2
+        x: 1232
+        y: 218
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67cfe6e8c669996c0800000000000000
+      internalID: -4136109389772817290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_NoGuns_18
+      rect:
+        serializedVersion: 2
+        x: 1265
+        y: 199
+        width: 11
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eabcb69166e9a6f20800000000000000
+      internalID: 3416717428664290222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_NoGuns_19
+      rect:
+        serializedVersion: 2
+        x: 1276
+        y: 193
+        width: 34
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41e9beca8843f41e0800000000000000
+      internalID: -2211491130394305004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_NoGuns_20
+      rect:
+        serializedVersion: 2
+        x: 1310
+        y: 193
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24888e8e708d73010800000000000000
+      internalID: 1168640156809857090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_NoGuns_21
+      rect:
+        serializedVersion: 2
+        x: 1340
+        y: 193
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f20c7c3c34bc13380800000000000000
+      internalID: -8993183488974274513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_NoGuns_22
+      rect:
+        serializedVersion: 2
+        x: 1161
+        y: 1
+        width: 205
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: feb4fae8e17f072f0800000000000000
+      internalID: -977009408524465169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_NoGuns_23
+      rect:
+        serializedVersion: 2
+        x: 1232
+        y: 193
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 235c71f504bed3110800000000000000
+      internalID: 1242407733929952562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_NoGuns_24
+      rect:
+        serializedVersion: 2
+        x: 1370
+        y: 184
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2417187283954b180800000000000000
+      internalID: -9100550849293094590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_NoGuns_25
+      rect:
+        serializedVersion: 2
+        x: 1398
+        y: 184
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cddeca18b15cc99b0800000000000000
+      internalID: -5071962358395638308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_NoGuns_26
+      rect:
+        serializedVersion: 2
+        x: 1641
+        y: 127
+        width: 78
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a8279f7424bd7100800000000000000
+      internalID: 107440034979195047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_NoGuns_27
+      rect:
+        serializedVersion: 2
+        x: 1719
+        y: 127
+        width: 65
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd2f4046f4cdaf250800000000000000
+      internalID: 5979333688826327772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_NoGuns_28
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 13
+        width: 287
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16ad31df1bfe8d700800000000000000
+      internalID: 565465300969183841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_NoGuns_29
+      rect:
+        serializedVersion: 2
+        x: 1131
+        y: 166
+        width: 29
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3272adccb78ef0010800000000000000
+      internalID: 1157399247672977187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_NoGuns_30
+      rect:
+        serializedVersion: 2
+        x: 1366
+        y: 1
+        width: 183
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 403f4902dd182be70800000000000000
+      internalID: 9129502181367804676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_NoGuns_31
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 16
+        width: 264
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23ec490b13ebc2370800000000000000
+      internalID: 8299217333962198578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_NoGuns_32
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 9
+        width: 269
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4b4061cece213010800000000000000
+      internalID: 1166765244008123214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_NoGuns_33
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 2
+        width: 276
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d32bd15bc199979a0800000000000000
+      internalID: -6234783860540984771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_NoGuns_34
+      rect:
+        serializedVersion: 2
+        x: 1558
+        y: 128
+        width: 75
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecdc941ad3c2c59d0800000000000000
+      internalID: -2784301826411213362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_NoGuns_35
+      rect:
+        serializedVersion: 2
+        x: 1784
+        y: 127
+        width: 16
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b188fbd25233b2b0800000000000000
+      internalID: -5570052982667968073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_NoGuns_36
+      rect:
+        serializedVersion: 2
+        x: 1549
+        y: 1
+        width: 126
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df55cb14a14ede920800000000000000
+      internalID: 3021321726458615293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_NoGuns_37
+      rect:
+        serializedVersion: 2
+        x: 1675
+        y: 1
+        width: 126
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab8d4aeaa2027bf20800000000000000
+      internalID: 3438252208211417274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_NoGuns_38
+      rect:
+        serializedVersion: 2
+        x: 1806
+        y: 108
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0948093066999bd00800000000000000
+      internalID: 988990256610051216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_NoGuns_39
+      rect:
+        serializedVersion: 2
+        x: 1819
+        y: 67
+        width: 72
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87746f1578fbcf790800000000000000
+      internalID: -7494905091934763144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_NoGuns_40
+      rect:
+        serializedVersion: 2
+        x: 1893
+        y: 66
+        width: 31
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5158186a20897dd30800000000000000
+      internalID: 4456197493457257749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_NoGuns_41
+      rect:
+        serializedVersion: 2
+        x: 1804
+        y: 67
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6a006533fcb8ec00800000000000000
+      internalID: 930201075810568811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_NoGuns_42
+      rect:
+        serializedVersion: 2
+        x: 1801
+        y: 1
+        width: 130
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f19345b36aa4f8170800000000000000
+      internalID: 8182841125775882527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_NoGuns_43
+      rect:
+        serializedVersion: 2
+        x: 1932
+        y: 48
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efc5043da0d5ed5f0800000000000000
+      internalID: -730043788512174850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_NoGuns_44
+      rect:
+        serializedVersion: 2
+        x: 1946
+        y: 34
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d938d18de2ab2a1c0800000000000000
+      internalID: -4493824767805258851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_NoGuns_45
+      rect:
+        serializedVersion: 2
+        x: 1936
+        y: 16
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1d9137e7da769870800000000000000
+      internalID: 8689267598773296411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_NoGuns_46
+      rect:
+        serializedVersion: 2
+        x: 1961
+        y: 2
+        width: 62
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb4d844cc63deaa80800000000000000
+      internalID: -8453586986424806212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_NoGuns_47
+      rect:
+        serializedVersion: 2
+        x: 2023
+        y: 1
+        width: 24
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6948ccd135fdd6b90800000000000000
+      internalID: -7246890677294037866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_NoGuns_48
+      rect:
+        serializedVersion: 2
+        x: 1939
+        y: 2
+        width: 19
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6b1b9e6ad0637a90800000000000000
+      internalID: -7317398478272128145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
