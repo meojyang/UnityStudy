@@ -172,7 +172,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      DustFx02_04_0: -6817509999942358745
+      DustFx02_04_1: 604675460314148818
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

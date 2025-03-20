@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      TurbineFx_07_0: 1343449766731853519
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

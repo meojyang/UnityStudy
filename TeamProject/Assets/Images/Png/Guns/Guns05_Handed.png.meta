@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Guns05_Handed_0: -4080197897193221842
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

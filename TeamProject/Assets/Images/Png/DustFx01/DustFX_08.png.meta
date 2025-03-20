@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      DustFX_08_0: -277740465045155920
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

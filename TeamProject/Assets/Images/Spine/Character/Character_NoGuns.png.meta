@@ -1347,7 +1347,56 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Character_NoGuns_0: -3941030033592199593
+      Character_NoGuns_1: 4073292324854988773
+      Character_NoGuns_10: 1343638801762432467
+      Character_NoGuns_11: -7488522696576588929
+      Character_NoGuns_12: -5138592628344827010
+      Character_NoGuns_13: -6047823822216600211
+      Character_NoGuns_14: -884659595322404326
+      Character_NoGuns_15: 8939983471886225343
+      Character_NoGuns_16: 3799613022610090559
+      Character_NoGuns_17: -4136109389772817290
+      Character_NoGuns_18: 3416717428664290222
+      Character_NoGuns_19: -2211491130394305004
+      Character_NoGuns_2: 1986880497212705594
+      Character_NoGuns_20: 1168640156809857090
+      Character_NoGuns_21: -8993183488974274513
+      Character_NoGuns_22: -977009408524465169
+      Character_NoGuns_23: 1242407733929952562
+      Character_NoGuns_24: -9100550849293094590
+      Character_NoGuns_25: -5071962358395638308
+      Character_NoGuns_26: 107440034979195047
+      Character_NoGuns_27: 5979333688826327772
+      Character_NoGuns_28: 565465300969183841
+      Character_NoGuns_29: 1157399247672977187
+      Character_NoGuns_3: 3187078820533223828
+      Character_NoGuns_30: 9129502181367804676
+      Character_NoGuns_31: 8299217333962198578
+      Character_NoGuns_32: 1166765244008123214
+      Character_NoGuns_33: -6234783860540984771
+      Character_NoGuns_34: -2784301826411213362
+      Character_NoGuns_35: -5570052982667968073
+      Character_NoGuns_36: 3021321726458615293
+      Character_NoGuns_37: 3438252208211417274
+      Character_NoGuns_38: 988990256610051216
+      Character_NoGuns_39: -7494905091934763144
+      Character_NoGuns_4: -7597570383968169943
+      Character_NoGuns_40: 4456197493457257749
+      Character_NoGuns_41: 930201075810568811
+      Character_NoGuns_42: 8182841125775882527
+      Character_NoGuns_43: -730043788512174850
+      Character_NoGuns_44: -4493824767805258851
+      Character_NoGuns_45: 8689267598773296411
+      Character_NoGuns_46: -8453586986424806212
+      Character_NoGuns_47: -7246890677294037866
+      Character_NoGuns_48: -7317398478272128145
+      Character_NoGuns_5: -4351773315524808547
+      Character_NoGuns_6: -7661661340605309761
+      Character_NoGuns_7: 1711718622628787376
+      Character_NoGuns_8: -7716858674497014014
+      Character_NoGuns_9: -1650390250838721959
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
